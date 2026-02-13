@@ -4,14 +4,13 @@ body {
     background: linear-gradient(to bottom right, #a2d2ff, #bde0fe);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    overflow-x: hidden; /* no horizontal scroll */
-    min-height: 200vh;   /* long page for scrolling */
+    overflow-x: hidden;
+    min-height: 200vh;   /* makes page scrollable */
     display: flex;
-    flex-direction: column; /* stack elements top to bottom */
+    flex-direction: column;
     align-items: center;
 }
 
-/* Container */
 .container {
     position: relative;
     width: 100%;
@@ -39,14 +38,14 @@ body {
     pointer-events: none;
 }
 
-/* Flower on top */
+/* Flower */
 .flower {
-    position: absolute;  /* float above letter */
-    top: 50px;           /* distance from top of page */
+    position: absolute;
+    top: 50px;
     left: 50%;
     transform: translateX(-50%) scale(0);
-    width: 150px;        /* flower size */
-    z-index: 5;          /* on top of letter */
+    width: 150px;
+    z-index: 5;
     transition: transform 0.5s ease;
 }
 
@@ -62,7 +61,7 @@ body {
     padding: 30px;
     border-radius: 15px;
     max-width: 400px;
-    margin-top: 200px; /* letter below flower */
+    margin-top: 200px; /* leave space for flower on top */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     opacity: 0;
     transform: translateY(20px);
@@ -104,5 +103,4 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
-
 
