@@ -44,7 +44,7 @@ body {
     top: 150px;
     left: 50%;
     transform: translateX(-50%) scale(0);
-    width: 200px;
+    width: 250px;
     z-index: 5;
     transition: transform 0.5s ease;
 }
@@ -103,6 +103,7 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 
