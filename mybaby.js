@@ -1,13 +1,12 @@
 
 const envelope = document.getElementById("envelope");
 const letter = document.getElementById("letter");
+const flower = document.querySelector(".flower");
 
 envelope.addEventListener("click", () => {
-    envelope.style.display = "none";
-
     letter.classList.remove("hidden");
+    letter.classList.add("show");
 
-    setTimeout(() => {
-        letter.classList.add("show");
-    }, 10);
+    flower.classList.remove("hidden");
+    flower.classList.add("show");
 });
