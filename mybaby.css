@@ -40,6 +40,27 @@ body::before {
     box-shadow: 0 5px 15px rgba(0, 0 ,0, 0, 2 );
 }
 
+.hidden {
+    display: none;
+}
+
+.flower {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%) scale(0);
+    width: 60px;
+    transition: transform 0.5s ease;
+}
+
+.flower.show {
+    transform: translateX(-50%) scale(1);
+}
+
+.letter {
+    position: relative;
+}
+
 @keyframes float {
     from { transform: translateY(0); }
     to { transform: translateY(-50px); }
@@ -83,10 +104,6 @@ body::before {
     color: #3a86ff;
 }
 
-.hidden {
-    display: none;
-}
-
 .show {
     display: block;
     opacity: 1;
@@ -98,3 +115,4 @@ p {
 
 
 }
+
