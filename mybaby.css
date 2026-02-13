@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    background: linear-gradient(to bottom right, #a2d2ff, #bde0fe );
+    background: linear-gradient(to bottom right, #000000, #bde0fe );
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
@@ -115,4 +115,5 @@ p {
 
 
 }
+
 
