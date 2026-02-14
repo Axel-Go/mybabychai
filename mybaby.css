@@ -64,7 +64,7 @@ body {
     padding: 30px;
     text-align: center; 
     border-radius: 15px;
-    max-width: 400px;
+    max-width: 500px;
     margin: 530px auto 50px auto;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     opacity: 0;
@@ -106,6 +106,7 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 
